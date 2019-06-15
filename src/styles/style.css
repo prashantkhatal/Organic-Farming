@@ -1,0 +1,13 @@
+.site-logo {
+	width: 100px;
+	height: 100px;
+}
+
+.site-header {
+	background: url('../images/Header_background.jpg') round;
+}
+
+.site-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+}
