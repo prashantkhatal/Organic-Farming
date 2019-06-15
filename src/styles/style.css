@@ -1,3 +1,9 @@
+body
+{
+    background: url('../images/web-background1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
 .site-logo {
 	width: 100px;
 	height: 100px;
@@ -7,7 +13,33 @@
 	background: url('../images/Header_background.jpg') round;
 }
 
-.site-header a {
+.site-headers a {
     color: #999;
     transition: ease-in-out color .15s;
+}
+
+.nav-item {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.custom-navbar {
+    background: url(../images/Header_background.jpg) repeat;
+    background-size: 4px 48px;
+    /* background-color: #e3f2fd; */
+}
+
+.custom-navbar .nav-item .nav-link {
+    color: #008000;
+}
+
+.second-header .nav-item a {
+    background-color: #faf4e8;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    color: #164773;
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
 }
