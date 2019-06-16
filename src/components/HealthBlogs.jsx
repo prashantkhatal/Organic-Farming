@@ -4,7 +4,7 @@ import React from 'react';
 const HealthBlogs = props => {
     return (
         <div className="text-white">
-            HealthBlogs 
+            Get cured Naturally 
         </div>
     )
 }
