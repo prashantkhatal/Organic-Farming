@@ -1,6 +1,6 @@
 body
 {
-    background: url('../images/web-background1.jpg') no-repeat center center fixed;
+    background: url('../../public/assets/images/web-background1.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -10,7 +10,7 @@ body
 }
 
 .site-header {
-	background: url('../images/Header_background.jpg') round;
+	background: url('../../public/assets/images/Header_background.jpg') round;
 }
 
 .site-headers a {
@@ -24,7 +24,7 @@ body
 }
 
 .custom-navbar {
-    background: url(../images/Header_background.jpg) repeat;
+    background: url(../../public/assets/images/Header_background.jpg) repeat;
     background-size: 4px 48px;
     /* background-color: #e3f2fd; */
 }
@@ -42,4 +42,17 @@ body
     line-height: 16px;
     text-align: center;
     text-decoration: none;
+}
+
+.custom-container {
+    min-height: calc(100vh - 275px);
+}
+
+.image-gallery-slide img {
+    height: 200px;
+}
+
+.footer-div {
+	background: url('../../public/assets/images/Header_background.jpg') round;
+    background-size: contain;
 }

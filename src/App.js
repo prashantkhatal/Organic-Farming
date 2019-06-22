@@ -7,6 +7,7 @@ import Home from './components/Home';
 import WhyOrganic from './components/WhyOrganic';
 import Products from './components/Products';
 import HealthBlogs from './components/HealthBlogs';
+import Footer from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/style.css';
@@ -18,7 +19,7 @@ const App = (props) => {
     return (
         <Router>
             <MenuBar > </MenuBar>
-            <div className="container">
+            <div className="container custom-container">
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route path="/mission" component={Home} />
@@ -28,6 +29,7 @@ const App = (props) => {
                     <Route path="/contact" component={Contact} />
                 </Switch>
             </div>
+            <Footer />
         </Router>
     );
 }
